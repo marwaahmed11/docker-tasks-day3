@@ -1,0 +1,11 @@
+1-sudo yum update
+2-curl –sL https://rpm.nodesource.com/setup_10.x | sudo bash -
+3-sudo yum install –y nodejs
+4-node -v
+5-npm -v
+6-sudo yum install curl -y
+7-curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
+8-source ~/.bashrc
+9-nvm ls-remote 
+10-nvm install v16.0.0.1
+11-npx create-react-app myapp

@@ -1,0 +1,13 @@
+version: '3.5'
+services:
+  react-app:
+    image: my-app2:1.0
+    container_name: react-app-container
+    restart: always
+    ports:
+      - "3000:80"
+
+# sudo docker run -it --name react-app-container -p 3000:80 my-app2:1.0
+
+# sudo docker-compose up 
+# sudo docker-compose ps
